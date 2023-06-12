@@ -1,0 +1,13 @@
+C:\Practicas\ExamenCoppel\Rinku\Rinku.DAO\bin\Debug\netcoreapp3.1\Rinku.DAO.deps.json
+C:\Practicas\ExamenCoppel\Rinku\Rinku.DAO\bin\Debug\netcoreapp3.1\Rinku.DAO.dll
+C:\Practicas\ExamenCoppel\Rinku\Rinku.DAO\bin\Debug\netcoreapp3.1\Rinku.DAO.pdb
+C:\Practicas\ExamenCoppel\Rinku\Rinku.DAO\bin\Debug\netcoreapp3.1\Rinku.Entities.dll
+C:\Practicas\ExamenCoppel\Rinku\Rinku.DAO\bin\Debug\netcoreapp3.1\Rinku.Entities.pdb
+C:\Practicas\ExamenCoppel\Rinku\Rinku.DAO\obj\Debug\netcoreapp3.1\Rinku.DAO.csproj.AssemblyReference.cache
+C:\Practicas\ExamenCoppel\Rinku\Rinku.DAO\obj\Debug\netcoreapp3.1\Rinku.DAO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Practicas\ExamenCoppel\Rinku\Rinku.DAO\obj\Debug\netcoreapp3.1\Rinku.DAO.AssemblyInfoInputs.cache
+C:\Practicas\ExamenCoppel\Rinku\Rinku.DAO\obj\Debug\netcoreapp3.1\Rinku.DAO.AssemblyInfo.cs
+C:\Practicas\ExamenCoppel\Rinku\Rinku.DAO\obj\Debug\netcoreapp3.1\Rinku.DAO.csproj.CoreCompileInputs.cache
+C:\Practicas\ExamenCoppel\Rinku\Rinku.DAO\obj\Debug\netcoreapp3.1\Rinku.DAO.csproj.CopyComplete
+C:\Practicas\ExamenCoppel\Rinku\Rinku.DAO\obj\Debug\netcoreapp3.1\Rinku.DAO.dll
+C:\Practicas\ExamenCoppel\Rinku\Rinku.DAO\obj\Debug\netcoreapp3.1\Rinku.DAO.pdb
