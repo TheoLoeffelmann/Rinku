@@ -12,5 +12,6 @@ namespace Rinku.Entities.Entities
         public DateTime SatartPeriod { get; set; }
         public DateTime EndPeriod { get; set; }
         public int EmployeeId { get; set; }
+        public bool Deactivated { get; set; }
     }
 }

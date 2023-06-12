@@ -9,5 +9,6 @@ namespace Rinku.Entities.Entities
         public int EmployeeId { get; set; }
         public string Employee { get; set; }
         public int RoleId { get; set; }
+        public bool Deactivated { get; set; }
     }
 }

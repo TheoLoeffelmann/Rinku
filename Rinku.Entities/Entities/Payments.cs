@@ -14,5 +14,6 @@
         public decimal TotalSalary { get; set; }
         public int DeliveryId { get; set; }
         public int EmployeeId { get; set; }
+        public bool Deactivated { get; set; }   
     }
 }
