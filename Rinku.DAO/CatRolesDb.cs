@@ -1,15 +1,13 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Rinku.Entities;
-using Rinku.Entities.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
 namespace Rinku.DAO
 {
+    using Microsoft.EntityFrameworkCore;
+    using Rinku.Entities;
+    using Rinku.Entities.Entities;
+    using System;
+    using System.Collections.Generic;
+    using System.Threading.Tasks;
     public class CatRolesDb
     {
         private readonly RinkuContext _db;
@@ -49,7 +47,7 @@ namespace Rinku.DAO
             catch (Exception ex)
             {
 
-                throw;
+                throw new Exception("No se pudo procesar la consulta de roles " + ex.Message);
             }
         }
 

@@ -1,0 +1,15 @@
+C:\Practicas\ExamenCoppel\Rinku\Rinku.Services\bin\Debug\netcoreapp3.1\Rinku.Services.deps.json
+C:\Practicas\ExamenCoppel\Rinku\Rinku.Services\bin\Debug\netcoreapp3.1\Rinku.Services.dll
+C:\Practicas\ExamenCoppel\Rinku\Rinku.Services\bin\Debug\netcoreapp3.1\Rinku.Services.pdb
+C:\Practicas\ExamenCoppel\Rinku\Rinku.Services\bin\Debug\netcoreapp3.1\Rinku.DAO.dll
+C:\Practicas\ExamenCoppel\Rinku\Rinku.Services\bin\Debug\netcoreapp3.1\Rinku.Entities.dll
+C:\Practicas\ExamenCoppel\Rinku\Rinku.Services\bin\Debug\netcoreapp3.1\Rinku.DAO.pdb
+C:\Practicas\ExamenCoppel\Rinku\Rinku.Services\bin\Debug\netcoreapp3.1\Rinku.Entities.pdb
+C:\Practicas\ExamenCoppel\Rinku\Rinku.Services\obj\Debug\netcoreapp3.1\Rinku.Services.csproj.AssemblyReference.cache
+C:\Practicas\ExamenCoppel\Rinku\Rinku.Services\obj\Debug\netcoreapp3.1\Rinku.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Practicas\ExamenCoppel\Rinku\Rinku.Services\obj\Debug\netcoreapp3.1\Rinku.Services.AssemblyInfoInputs.cache
+C:\Practicas\ExamenCoppel\Rinku\Rinku.Services\obj\Debug\netcoreapp3.1\Rinku.Services.AssemblyInfo.cs
+C:\Practicas\ExamenCoppel\Rinku\Rinku.Services\obj\Debug\netcoreapp3.1\Rinku.Services.csproj.CoreCompileInputs.cache
+C:\Practicas\ExamenCoppel\Rinku\Rinku.Services\obj\Debug\netcoreapp3.1\Rinku.Services.csproj.CopyComplete
+C:\Practicas\ExamenCoppel\Rinku\Rinku.Services\obj\Debug\netcoreapp3.1\Rinku.Services.dll
+C:\Practicas\ExamenCoppel\Rinku\Rinku.Services\obj\Debug\netcoreapp3.1\Rinku.Services.pdb

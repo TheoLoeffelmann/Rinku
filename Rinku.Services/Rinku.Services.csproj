@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Rinku.DAO\Rinku.DAO.csproj" />
+    <ProjectReference Include="..\Rinku.Entities\Rinku.Entities.csproj" />
+  </ItemGroup>
+
 </Project>

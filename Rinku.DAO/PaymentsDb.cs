@@ -1,13 +1,12 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Rinku.Entities;
-using Rinku.Entities.Entities;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Rinku.DAO
+﻿namespace Rinku.DAO
 {
+    using Microsoft.EntityFrameworkCore;
+    using Rinku.Entities;
+    using Rinku.Entities.Entities;
+    using System;
+    using System.Collections.Generic;
+    using System.Text;
+    using System.Threading.Tasks;
     public class PaymentsDb
     {
         private readonly RinkuContext _db;
