@@ -49,7 +49,7 @@ namespace Rinku.DAO
             catch (Exception ex)
             {
 
-                throw;
+                throw new Exception("No se pudo procesar la consulta de roles " + ex.Message);
             }
         }
 
