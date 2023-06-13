@@ -22,7 +22,7 @@ namespace Rinku.DAO
         {
             try
             {
-                var response = _db.CatRoles.FromSqlInterpolated($"exec sp_CatRoles_CRUD @opc= {opc}, @Id = {rol.RoleId}, @Role={rol.RoleId}, @Deactivated = {rol.Deactivated}").AsAsyncEnumerable();
+                var response = _db.CatRoles.FromSqlInterpolated($"exec sp_CatRoles_CRUD @opc= {opc}, @Id = {rol.RoleId}, @Role={rol.Role}, @Deactivated = {rol.Deactivated}").AsAsyncEnumerable();
                 await foreach(var role in response)
                 {
                     return role;
@@ -40,7 +40,7 @@ namespace Rinku.DAO
         {
             try
             {
-                return await _db.CatRoles.FromSqlInterpolated($"exec sp_CatRoles_CRUD @opc= {opc}, @Id = {rol.RoleId}, @Role={rol.RoleId}, @Deactivated = {rol.Deactivated}").ToListAsync();
+                return await _db.CatRoles.FromSqlInterpolated($"exec sp_CatRoles_CRUD @opc= {opc}, @Id = {rol.RoleId}, @Role={rol.Role}, @Deactivated = {rol.Deactivated}").ToListAsync();
                 
                
             }
@@ -55,7 +55,7 @@ namespace Rinku.DAO
         {
             try
             {
-                var response=  _db.CatRoles.FromSqlInterpolated($"exec sp_CatRoles_CRUD @opc= {opc}, @Id = {rol.RoleId}, @Role={rol.RoleId}, @Deactivated = {rol.Deactivated}").AsAsyncEnumerable();
+                var response=  _db.CatRoles.FromSqlInterpolated($"exec sp_CatRoles_CRUD @opc= {opc}, @Id = {rol.RoleId}, @Role={rol.Role}, @Deactivated = {rol.Deactivated}").AsAsyncEnumerable();
                 await foreach (var item in response)
                 {
                     return item;

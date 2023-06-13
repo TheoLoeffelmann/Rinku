@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿namespace Rinku.DAO
 {
     using Microsoft.EntityFrameworkCore;
@@ -7,6 +8,18 @@
     using System.Collections.Generic;
     using System.Text;
     using System.Threading.Tasks;
+=======
+﻿using Microsoft.EntityFrameworkCore;
+using Rinku.Entities;
+using Rinku.Entities.Entities;
+using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Rinku.DAO
+{
+>>>>>>> 8600fef7d15d16e7ec333945fd1b87ad80617dfd
     public  class CatSalariesDb
     {
         private readonly RinkuContext _db;
