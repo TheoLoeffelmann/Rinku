@@ -9,9 +9,11 @@
         public int TotalHours { get; set; }
         public decimal TotalPaymetDelivers { get; set; }
         public decimal TotalPaymentBounus { get; set; }
+        public decimal QuantityWithHoldings { get; set; }
         public decimal TotaltWithholdings { get; set; }
         public decimal TotalPaymentsGroceryVouchers { get; set; }
         public decimal TotalSalary { get; set; }
+        public decimal TotalPayment { get; set; }
         public int DeliveryId { get; set; }
         public int EmployeeId { get; set; }
         public bool Deactivated { get; set; }   

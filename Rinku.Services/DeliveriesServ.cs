@@ -15,7 +15,7 @@
             _db = db;
         }
 
-        public async Task<Deliveries> DeliveriesCUDAsyng(int opc, Deliveries del)
+        public async Task<Deliveries> DeliveriesCUDAsync(int opc, Deliveries del)
         {
             try
             {

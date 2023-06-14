@@ -27,7 +27,8 @@ begin
 	end
 	if @opc = 3
 	begin
-		delete CatSalaries
+		update CatSalaries
+			set  Deactivated = 1
 		where SalaryId = @Id
 	end
 	if @opc = 4

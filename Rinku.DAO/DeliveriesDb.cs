@@ -22,7 +22,7 @@
         {
             try
             {
-                var response = _db.Deliveries.FromSqlInterpolated($"exec sp_Deliveries_CRUD @opc= {opc}, @Id = {del.DeliveryId},  @Delivery = {del.Delivery}, @StartPeriod={del.SatartPeriod}, @EndPeriod = {del.EndPeriod} @Deactivated = {del.Deactivated},  @EmployeeId={del.EmployeeId}").AsAsyncEnumerable();
+                var response = _db.Deliveries.FromSqlInterpolated($"exec sp_Deliveries_CRUD @opc= {opc}, @Id = {del.DeliveryId},  @Delivery = {del.Delivery}, @StartPeriod={del.SatartPeriod}, @EndPeriod = {del.EndPeriod}, @Deactivated = {del.Deactivated},  @EmployeeId={del.EmployeeId}").AsAsyncEnumerable();
                 await foreach (var salary in response)
                 {
                     return salary;
@@ -40,7 +40,7 @@
         {
             try
             {
-                return await _db.Deliveries.FromSqlInterpolated($"exec sp_Deliveries_CRUD @opc= {opc}, @Id = {del.DeliveryId},  @Delivery = {del.Delivery}, @StartPeriod={del.SatartPeriod}, @EndPeriod = {del.EndPeriod} @Deactivated = {del.Deactivated},  @EmployeeId={del.EmployeeId}").ToListAsync();
+                return await _db.Deliveries.FromSqlInterpolated($"exec sp_Deliveries_CRUD @opc= {opc}, @Id = {del.DeliveryId},  @Delivery = {del.Delivery}, @StartPeriod={del.SatartPeriod}, @EndPeriod = {del.EndPeriod}, @Deactivated = {del.Deactivated},  @EmployeeId={del.EmployeeId}").ToListAsync();
             }
             catch (Exception ex)
             {
@@ -53,7 +53,7 @@
         {
             try
             {
-                var response = _db.Deliveries.FromSqlInterpolated($"exec sp_Deliveries_CRUD @opc= {opc}, @Id = {del.DeliveryId},  @Delivery = {del.Delivery}, @StartPeriod={del.SatartPeriod}, @EndPeriod = {del.EndPeriod} @Deactivated = {del.Deactivated},  @EmployeeId={del.EmployeeId}").AsAsyncEnumerable();
+                var response = _db.Deliveries.FromSqlInterpolated($"exec sp_Deliveries_CRUD @opc= {opc}, @Id = {del.DeliveryId},  @Delivery = {del.Delivery}, @StartPeriod={del.SatartPeriod}, @EndPeriod = {del.EndPeriod}, @Deactivated = {del.Deactivated},  @EmployeeId={del.EmployeeId}").AsAsyncEnumerable();
                 await foreach (var item in response)
                 {
                     return item;

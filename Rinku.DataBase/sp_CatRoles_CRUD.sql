@@ -1,5 +1,4 @@
-﻿use Rinku
-go
+﻿
 create procedure sp_CatRoles_CRUD
 	@opc int = 0,  @Id int, @Role as varchar(15)='', @Deactivated bit=0
 as
@@ -27,8 +26,10 @@ begin
 	end
 	if @opc = 3
 	begin
-		delete CatRoles
+		update CatRoles
+			set Deactivated= 1
 		where RoleId = @Id
+		select * from CatRoles where RoleId = @Id
 	end
 	if @opc = 4
 	begin

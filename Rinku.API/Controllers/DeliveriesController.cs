@@ -20,10 +20,12 @@ namespace Rinku.API.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<Deliveries>> Get([FromBody] Deliveries req)
+        public async Task<ActionResult<Deliveries>> Get(int id)
         {
             try
             {
+                Deliveries req = new Deliveries() 
+                { DeliveryId= id, SatartPeriod=DateTime.UtcNow, EndPeriod=DateTime.UtcNow };
                 var response = await this._serv.DeliveriesAsync(4, req);
                 return Ok(response);
             }
@@ -34,10 +36,12 @@ namespace Rinku.API.Controllers
         }
 
         [HttpGet("Deliveries")]
-        public async Task<ActionResult<List<Deliveries>>> GetAll([FromBody] Deliveries req)
+        public async Task<ActionResult<List<Deliveries>>> GetAll()
         {
             try
             {
+                Deliveries req = new Deliveries()
+                { DeliveryId = 0, SatartPeriod = DateTime.UtcNow, EndPeriod = DateTime.UtcNow };
                 var response =await this._serv.GetDeliveriesAsync(4, req);
                 return Ok(response);
             }

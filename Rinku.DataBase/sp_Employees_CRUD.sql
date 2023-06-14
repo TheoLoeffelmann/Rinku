@@ -31,8 +31,10 @@ begin
 	--eliminar
 	if @opc = 3
 	begin
-		delete Employees
+		update Employees
+			set Deactivated= 1
 		where EmployeeId = @Id
+		select * from Employees where EmployeeId = @Id
 	end
 	--buscar
 	if @opc = 4

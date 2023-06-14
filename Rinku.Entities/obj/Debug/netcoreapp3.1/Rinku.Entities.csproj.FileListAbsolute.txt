@@ -1,0 +1,10 @@
+C:\Practicas\ExamenCoppel\Rinku\Rinku.Entities\bin\Debug\netcoreapp3.1\Rinku.Entities.deps.json
+C:\Practicas\ExamenCoppel\Rinku\Rinku.Entities\bin\Debug\netcoreapp3.1\Rinku.Entities.dll
+C:\Practicas\ExamenCoppel\Rinku\Rinku.Entities\bin\Debug\netcoreapp3.1\Rinku.Entities.pdb
+C:\Practicas\ExamenCoppel\Rinku\Rinku.Entities\obj\Debug\netcoreapp3.1\Rinku.Entities.csproj.AssemblyReference.cache
+C:\Practicas\ExamenCoppel\Rinku\Rinku.Entities\obj\Debug\netcoreapp3.1\Rinku.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Practicas\ExamenCoppel\Rinku\Rinku.Entities\obj\Debug\netcoreapp3.1\Rinku.Entities.AssemblyInfoInputs.cache
+C:\Practicas\ExamenCoppel\Rinku\Rinku.Entities\obj\Debug\netcoreapp3.1\Rinku.Entities.AssemblyInfo.cs
+C:\Practicas\ExamenCoppel\Rinku\Rinku.Entities\obj\Debug\netcoreapp3.1\Rinku.Entities.csproj.CoreCompileInputs.cache
+C:\Practicas\ExamenCoppel\Rinku\Rinku.Entities\obj\Debug\netcoreapp3.1\Rinku.Entities.dll
+C:\Practicas\ExamenCoppel\Rinku\Rinku.Entities\obj\Debug\netcoreapp3.1\Rinku.Entities.pdb

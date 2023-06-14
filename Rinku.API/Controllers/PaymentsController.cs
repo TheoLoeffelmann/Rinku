@@ -22,10 +22,14 @@ namespace Rinku.API.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<Payments>> Get([FromBody] Payments req)
+        public async Task<ActionResult<Payments>> Get(int id)
         {
             try
             {
+                Payments req = new Payments()
+                {
+                    DeliveryId = id
+                };
                 var response = await this._serv.PaymentAsync(4, req);
                 return Ok(response);
             }

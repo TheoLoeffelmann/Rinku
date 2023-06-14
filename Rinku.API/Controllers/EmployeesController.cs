@@ -38,10 +38,14 @@ namespace Rinku.API.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Employees>>> Get([FromBody] Employees req)
+        public async Task<ActionResult<IEnumerable<Employees>>> Get(int id)
         {
             try
             {
+                Employees req = new Employees()
+                {
+                    EmployeeId = id
+                };
                 var response = await this._serv.EmployeeAsync(4, req);
                 return Ok(response);
             }
@@ -50,6 +54,26 @@ namespace Rinku.API.Controllers
                 return StatusCode(500, ex.Message);
             }
         }
+
+        [HttpGet("name")]
+        public async Task<ActionResult<IEnumerable<Employees>>> GetByName(string name)
+        {
+            try
+            {
+                Employees req = new Employees()
+                {
+                    EmployeeId = 0,
+                    Employee= name
+                };
+                var response = await this._serv.EmployeeAsync(4, req);
+                return Ok(response);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+            }
+        }
+
 
         [HttpPost]
         public async Task<ActionResult<Employees>> AddEmployee([FromBody] Employees req)

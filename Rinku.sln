@@ -5,6 +5,34 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rinku.Entities", "Rinku.Entities\Rinku.Entities.csproj", "{C58CD2D8-2BE1-417E-B21B-E1AF6808766A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rinku.DAO", "Rinku.DAO\Rinku.DAO.csproj", "{115D408A-E458-433D-BBB2-DB27781A09EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rinku.Services", "Rinku.Services\Rinku.Services.csproj", "{153841C6-6163-48C2-8F0A-F66B4BB0693D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rinku.API", "Rinku.API\Rinku.API.csproj", "{F6E02E75-3644-4555-AEB0-D6100A581B43}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Rinku.DataBase", "Rinku.DataBase\Rinku.DataBase.sqlproj", "{D4619E2C-2892-40ED-9DA7-CB50C7ECE434}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Rinku.Web", "Rinku.Web\", "{3A645BBC-4A9B-4175-A1A5-4A9F879DD013}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_64823"
+		Debug.AspNetCompiler.PhysicalPath = "Rinku.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64823\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_64823"
+		Release.AspNetCompiler.PhysicalPath = "Rinku.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64823\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "64823"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +43,28 @@ Global
 		{C58CD2D8-2BE1-417E-B21B-E1AF6808766A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C58CD2D8-2BE1-417E-B21B-E1AF6808766A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C58CD2D8-2BE1-417E-B21B-E1AF6808766A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{115D408A-E458-433D-BBB2-DB27781A09EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{115D408A-E458-433D-BBB2-DB27781A09EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{115D408A-E458-433D-BBB2-DB27781A09EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{115D408A-E458-433D-BBB2-DB27781A09EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{153841C6-6163-48C2-8F0A-F66B4BB0693D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{153841C6-6163-48C2-8F0A-F66B4BB0693D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{153841C6-6163-48C2-8F0A-F66B4BB0693D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{153841C6-6163-48C2-8F0A-F66B4BB0693D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6E02E75-3644-4555-AEB0-D6100A581B43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6E02E75-3644-4555-AEB0-D6100A581B43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6E02E75-3644-4555-AEB0-D6100A581B43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6E02E75-3644-4555-AEB0-D6100A581B43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4619E2C-2892-40ED-9DA7-CB50C7ECE434}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4619E2C-2892-40ED-9DA7-CB50C7ECE434}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4619E2C-2892-40ED-9DA7-CB50C7ECE434}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D4619E2C-2892-40ED-9DA7-CB50C7ECE434}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4619E2C-2892-40ED-9DA7-CB50C7ECE434}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4619E2C-2892-40ED-9DA7-CB50C7ECE434}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3A645BBC-4A9B-4175-A1A5-4A9F879DD013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A645BBC-4A9B-4175-A1A5-4A9F879DD013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A645BBC-4A9B-4175-A1A5-4A9F879DD013}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A645BBC-4A9B-4175-A1A5-4A9F879DD013}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -19,10 +19,11 @@ namespace Rinku.API.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<CatRoles>> Get([FromBody] CatRoles req)
+        public async Task<ActionResult<CatRoles>> Get(int id)
         {
             try
             {
+                CatRoles req=new CatRoles() { RoleId= id };
                 var response = await this._serv.CatRolesAsync(4, req);
                 return Ok(response);
             }

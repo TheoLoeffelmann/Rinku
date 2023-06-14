@@ -10,7 +10,6 @@ namespace Rinku.Entities.Entities
         public int IdSalary { get; set; }
         public decimal Salary { get; set; }
         public decimal Bonus { get; set; }
-        //[ForeignKey(nameof(IdRole))]
         public int IdRole { get; set; }
         public bool Deactivated { get; set; }
 

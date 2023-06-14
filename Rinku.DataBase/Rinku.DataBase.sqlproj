@@ -57,4 +57,14 @@
   <ItemGroup>
     <Folder Include="Properties" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="SchemaDBRinku.sql" />
+    <None Include="Sp_CatSalaries_CRUD.sql" />
+    <None Include="sp_Deliveries_CRUD.sql" />
+    <None Include="sp_Employees_CRUD.sql" />
+    <None Include="sp_Payments_CRUD.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="sp_CatRoles_CRUD.sql" />
+  </ItemGroup>
 </Project>

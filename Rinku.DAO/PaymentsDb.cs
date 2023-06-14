@@ -20,7 +20,9 @@
         {
             try
             {
-                var response = _db.Payments.FromSqlInterpolated($"exec sp_Payments_CRUD @opc={opc}, @Id={payment.PaymentId}, @TotalHours={payment.TotalHours}, @TotalPaymentDelivers= {payment.TotalPaymetDelivers}, @TotalPaymentBounus = {payment.TotalPaymentBounus}, @TotalWithholdings= {payment.TotaltWithholdings}, @TotalPaymentGroceryVouchers={payment.TotalPaymentsGroceryVouchers}, @TotalSalary={payment.TotalSalary}, @Deactivated= {payment.Deactivated}, @DeliveryId = {payment.DeliveryId}, @EmployeeId = {payment.EmployeeId} ").AsAsyncEnumerable();
+                //var cmd = $"exec sp_Payments_CRUD @opc={opc}, @Id={payment.PaymentId}, @TotalHours={payment.TotalHours}, @TotalPaymentDelivers= {payment.TotalPaymetDelivers}, @TotalPaymentBounus = {payment.TotalPaymentBounus}, @QuantityWithHoldings={payment.QuantityWithHoldings}, @TotalWithholdings= {payment.TotaltWithholdings}, @TotalPaymentGroceryVouchers={payment.TotalPaymentsGroceryVouchers}, @TotalSalary={payment.TotalSalary}, @Deactivated= {payment.Deactivated}, @DeliveryId = {payment.DeliveryId}, @EmployeeId = {payment.EmployeeId} ";
+
+                var response = _db.Payments.FromSqlInterpolated($"exec sp_Payments_CRUD @opc={opc}, @Id={payment.PaymentId}, @TotalHours={payment.TotalHours}, @TotalPaymentDelivers= {payment.TotalPaymetDelivers}, @TotalPaymentBounus = {payment.TotalPaymentBounus}, @QuantityWithHoldings={payment.QuantityWithHoldings}, @TotalWithholdings= {payment.TotaltWithholdings}, @TotalPaymentGroceryVouchers={payment.TotalPaymentsGroceryVouchers}, @TotalSalary={payment.TotalSalary}, @TotalPayment ={payment.TotalSalary}, @Deactivated= {payment.Deactivated}, @DeliveryId = {payment.DeliveryId}, @EmployeeId = {payment.EmployeeId} ").AsAsyncEnumerable();
                 await foreach( var item in response)
                 {
                     return item;
@@ -37,7 +39,7 @@
         {
             try
             {
-                var response = _db.Payments.FromSqlInterpolated($"exec sp_Payments_CRUD @opc={opc}, @Id={payment.PaymentId}, @TotalHours={payment.TotalHours}, @TotalPaymentDelivers= {payment.TotalPaymetDelivers}, @TotalPaymentBounus = {payment.TotalPaymentBounus}, @TotalWithholdings= {payment.TotaltWithholdings}, @TotalPaymentGroceryVouchers={payment.TotalPaymentsGroceryVouchers}, @TotalSalary={payment.TotalSalary}, @Deactivated= {payment.Deactivated}, @DeliveryId = {payment.DeliveryId}, @EmployeeId = {payment.EmployeeId} ").AsAsyncEnumerable();
+                var response = _db.Payments.FromSqlInterpolated($"exec sp_Payments_CRUD @opc={opc}, @Id={payment.PaymentId}, @TotalHours={payment.TotalHours}, @TotalPaymentDelivers= {payment.TotalPaymetDelivers}, @TotalPaymentBounus = {payment.TotalPaymentBounus}, @QuantityWithHoldings={payment.QuantityWithHoldings}, @TotalWithholdings= {payment.TotaltWithholdings}, @TotalPaymentGroceryVouchers={payment.TotalPaymentsGroceryVouchers}, @TotalSalary={payment.TotalSalary}, @TotalPayment ={payment.TotalSalary}, @Deactivated= {payment.Deactivated}, @DeliveryId = {payment.DeliveryId}, @EmployeeId = {payment.EmployeeId} ").AsAsyncEnumerable();
                 List<Payments> list= new List<Payments>();
                 await foreach (var item in response)
                 {
@@ -58,7 +60,7 @@
         {
             try
             {
-                var response = _db.Payments.FromSqlInterpolated($"exec sp_Payments_CRUD @opc={opc}, @Id={payment.PaymentId}, @TotalHours={payment.TotalHours}, @TotalPaymentDelivers= {payment.TotalPaymetDelivers}, @TotalPaymentBounus = {payment.TotalPaymentBounus}, @TotalWithholdings= {payment.TotaltWithholdings}, @TotalPaymentGroceryVouchers={payment.TotalPaymentsGroceryVouchers}, @TotalSalary={payment.TotalSalary}, @Deactivated= {payment.Deactivated}, @DeliveryId = {payment.DeliveryId}, @EmployeeId = {payment.EmployeeId} ").AsAsyncEnumerable();
+                var response = _db.Payments.FromSqlInterpolated($"exec sp_Payments_CRUD @opc={opc}, @Id={payment.PaymentId}, @TotalHours={payment.TotalHours}, @TotalPaymentDelivers= {payment.TotalPaymetDelivers}, @TotalPaymentBounus = {payment.TotalPaymentBounus}, @QuantityWithHoldings={payment.QuantityWithHoldings}, @TotalWithholdings= {payment.TotaltWithholdings}, @TotalPaymentGroceryVouchers={payment.TotalPaymentsGroceryVouchers}, @TotalSalary={payment.TotalSalary}, @TotalPayment ={payment.TotalSalary}, @Deactivated= {payment.Deactivated}, @DeliveryId = {payment.DeliveryId}, @EmployeeId = {payment.EmployeeId} ").AsAsyncEnumerable();
                 
                 await foreach (var item in response)
                 {

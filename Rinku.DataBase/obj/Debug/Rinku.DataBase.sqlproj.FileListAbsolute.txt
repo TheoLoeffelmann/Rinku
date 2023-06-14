@@ -1,0 +1,10 @@
+C:\Practicas\ExamenCoppel\Rinku\Rinku.DataBase\bin\Debug\Rinku.DataBase.dacpac
+C:\Practicas\ExamenCoppel\Rinku\Rinku.DataBase\bin\Debug\Rinku.DataBase.dll
+C:\Practicas\ExamenCoppel\Rinku\Rinku.DataBase\bin\Debug\Rinku.DataBase.pdb
+C:\Practicas\ExamenCoppel\Rinku\Rinku.DataBase\obj\Debug\Rinku.DataBase.sqlproj.AssemblyReference.cache
+C:\Practicas\ExamenCoppel\Rinku\Rinku.DataBase\obj\Debug\Model.xml
+C:\Practicas\ExamenCoppel\Rinku\Rinku.DataBase\obj\Debug\refactor.xml
+C:\Practicas\ExamenCoppel\Rinku\Rinku.DataBase\obj\Debug\postdeploy.sql
+C:\Practicas\ExamenCoppel\Rinku\Rinku.DataBase\obj\Debug\predeploy.sql
+C:\Practicas\ExamenCoppel\Rinku\Rinku.DataBase\obj\Debug\Rinku.DataBase.dll
+C:\Practicas\ExamenCoppel\Rinku\Rinku.DataBase\obj\Debug\Rinku.DataBase.pdb

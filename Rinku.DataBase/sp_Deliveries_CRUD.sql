@@ -27,8 +27,10 @@ begin
 	end
 	if @opc = 3
 	begin
-		delete Deliveries
+		update Deliveries
+			set  Deactivated = 1
 		where DeliveryId = @Id
+		select * from Deliveries where DeliveryId = @Id
 	end
 	if @opc = 4
 	begin

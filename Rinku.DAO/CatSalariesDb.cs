@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-﻿namespace Rinku.DAO
+
+namespace Rinku.DAO
 {
     using Microsoft.EntityFrameworkCore;
     using Rinku.Entities;
@@ -8,19 +8,15 @@
     using System.Collections.Generic;
     using System.Text;
     using System.Threading.Tasks;
-=======
-﻿using Microsoft.EntityFrameworkCore;
-using Rinku.Entities;
-using Rinku.Entities.Entities;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
+    using Microsoft.EntityFrameworkCore;
+    using Rinku.Entities;
+    using Rinku.Entities.Entities;
+    using System;
+    using System.Collections.Generic;
+    using System.Text;
+    using System.Threading.Tasks;
 
-namespace Rinku.DAO
-{
->>>>>>> 8600fef7d15d16e7ec333945fd1b87ad80617dfd
-    public  class CatSalariesDb
+    public class CatSalariesDb
     {
         private readonly RinkuContext _db;
         public CatSalariesDb(RinkuContext db)
@@ -63,7 +59,7 @@ namespace Rinku.DAO
         {
             try
             {
-                var response = _db.CatSalaries.FromSqlInterpolated($"sp_CatSalaries_CRUD @opc = { opc}, @Id = { sal.IdSalary},  @Bonus = { sal.Bonus}, @Deactivated = { sal.Deactivated},  @RoleId ={ sal.IdRole}").AsAsyncEnumerable();
+                var response = _db.CatSalaries.FromSqlInterpolated($"sp_CatSalaries_CRUD @opc = {opc}, @Id = {sal.IdSalary},  @Bonus = {sal.Bonus}, @Deactivated = {sal.Deactivated},  @RoleId ={sal.IdRole}").AsAsyncEnumerable();
                 await foreach (var item in response)
                 {
                     return item;
